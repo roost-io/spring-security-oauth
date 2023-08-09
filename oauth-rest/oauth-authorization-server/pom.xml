@@ -165,7 +165,7 @@
         <!-- non-dependencies -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>13</java.version>
-        <keycloak.version>21.0.2</keycloak.version>
+        <keycloak.version>21.1.2</keycloak.version>
         <!-- these should be updated together with Keycloak -->
         <!-- check keycloak-dependencies-server-all effective pom -->
         <resteasy.version>4.7.7.Final</resteasy.version>
