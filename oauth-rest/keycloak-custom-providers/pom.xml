@@ -17,7 +17,7 @@
 
     <dependencies>
     
-        <dependency>
+        <!--<dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-core</artifactId>
             <version>${keycloak.version}</version>
@@ -33,14 +33,20 @@
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-server-spi-private</artifactId>
             <version>${keycloak.version}</version>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-services</artifactId>
             <version>${keycloak.version}</version>
         </dependency>
-
+        
+        <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-model-legacy</artifactId>
+            <version>${keycloak.version}</version>
+        </dependency>
+        
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -94,7 +100,7 @@
     <properties>
         <!-- non-dependencies -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
 
         <keycloak.version>21.1.2</keycloak.version>
 
