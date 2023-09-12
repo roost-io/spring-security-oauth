@@ -28,9 +28,9 @@ import com.baeldung.auth.AuthorizationServerApp;
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(classes = { AuthorizationServerApp.class }, webEnvironment = WebEnvironment.DEFINED_PORT)
 @ActiveProfiles("test")
-public class ContextIntegrationLiveTest {
+public class ContextIntegrationTest {
     
-    private static final Logger log = LoggerFactory.getLogger(ContextIntegrationLiveTest.class);
+    private static final Logger log = LoggerFactory.getLogger(ContextIntegrationTest.class);
     
     @LocalServerPort
     int serverPort;
