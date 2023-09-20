@@ -15,7 +15,6 @@ spring:
             token-uri: http://localhost:8083/auth/realms/baeldung/protocol/openid-connect/token
             user-info-uri: http://localhost:8083/auth/realms/baeldung/protocol/openid-connect/userinfo
             jwk-set-uri: http://localhost:8083/auth/realms/baeldung/protocol/openid-connect/certs
-            issuer-uri: http://localhost:8083/auth/realms/baeldung
             user-name-attribute: preferred_username
   thymeleaf:
     cache: false
